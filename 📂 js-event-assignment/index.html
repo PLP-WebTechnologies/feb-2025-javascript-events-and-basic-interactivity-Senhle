@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Innovations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Tech Innovations</div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Gadgets</a>
+                <a href="#">News</a>
+                <a href="#">Tutorials</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to the Future of Technology</h1>
+        <p>Discover the latest gadgets, innovations, and tutorials in tech</p>
+        <button id="exploreButton">Explore Now</button>
+    </section>
+
+    <section class="gallery">
+        <h2>Featured Gadgets</h2>
+        <div id="imageGalleryContainer">
+            <img id="imageGallery" src="tech1.jpg" alt="Tech Gadget 1">
+        </div>
+    </section>
+
+    <section class="tabs-section">
+        <h2>Latest Tech News</h2>
+        <div class="tabs">
+            <button class="tab active" data-target="content1">AI & Robotics</button>
+            <button class="tab" data-target="content2">Smartphones</button>
+            <button class="tab" data-target="content3">Tech Reviews</button>
+        </div>
+
+        <div id="content1" class="tabContent active">
+            <p>Artificial Intelligence is transforming the tech world. Explore how AI is evolving!</p>
+        </div>
+        <div id="content2" class="tabContent">
+            <p>Get the latest reviews on top smartphones and gadgets in the market.</p>
+        </div>
+        <div id="content3" class="tabContent">
+            <p>Read in-depth tech reviews of the latest gadgets to help you make informed decisions.</p>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <h2>Stay Updated with Our Newsletter</h2>
+        <form id="subscriptionForm">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tech Innovations. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
